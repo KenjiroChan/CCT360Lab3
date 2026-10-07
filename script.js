@@ -24,10 +24,10 @@ function showSequence(sequence){
     document.getElementById("caption3").textContent=sequence.captions[2];
 }
 
-document.getElementById("btnA").addEventListener("press", function (){showSequence(sequenceA)
+document.getElementById("btnA").addEventListener("click", function (){showSequence(sequenceA)
 });
 
-document.getElementById("btnB").addEventListener("press", function (){showSequence(sequenceB)
+document.getElementById("btnB").addEventListener("click", function (){showSequence(sequenceB)
 });
 
 showSequence(sequenceA);
