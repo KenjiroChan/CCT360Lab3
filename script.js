@@ -20,7 +20,9 @@ function showSequence(sequence){
     document.getElementById("firstSlot").src = sequence[0];
     document.getElementById("secondSlot").src = sequence[1];
     document.getElementById("thirdSlot").src = sequence[2];
-    document.getElementById("cap
+    document.getElementById("caption1").textContent=sequence.captions[0];
+    document.getElementById("caption2").textContent=sequence.captions[1];
+    document.getElementById("caption3").textContent=sequence.captions[2];
 }
 
 document.getElementById("btnA").addEventListener("press", function (){showSequence(sequenceA)
