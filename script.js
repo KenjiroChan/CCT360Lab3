@@ -16,7 +16,6 @@ let sequenceB = {
 };
 
 function showSequence(sequence){
-    document.getElementbyId("title").textContent = sequence.title; 
     document.getElementById("firstSlot").src = sequence[0];
     document.getElementById("secondSlot").src = sequence[1];
     document.getElementById("thirdSlot").src = sequence[2];
