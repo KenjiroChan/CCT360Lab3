@@ -27,3 +27,8 @@ function showSequence(sequence){
 
 document.getElementById("btnA").addEventListener("press", function (){showSequence(sequenceA)
 });
+
+document.getElementById("btnB").addEventListener("press", function (){showSequence(sequenceB)
+});
+
+showSequence(sequenceA);
