@@ -3,7 +3,13 @@ let images={
     imgB: "images/2.jpg",
     imgC:"images/3.jpg"
 };
-let sequenceA = [imgA, imgB, imgC];
+let sequenceA = {
+    title: "nice coincidence",
+    images: [images.imgA, images.imgB, images.imgC],
+    captions: ["finding a model", "she notices camera", "she poses"]
+};
+
+let sequenceB
 
 function showSequence(sequence){
     document.getElementById("firstSlot").src = sequence[0];
