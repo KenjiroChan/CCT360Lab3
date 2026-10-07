@@ -1,7 +1,8 @@
-let imgA = "images/IMG_4107.jpg";
-let imgB = "images/IMG_4104.jpg";
-let imgC = "images/IMG_4094.jpg";
-
+let images={
+    imgA:"images/1.jpg",
+    imgB: "images/2.jpg",
+    imgC:"images/3.jpg"
+};
 let sequenceA = [imgA, imgB, imgC];
 
 function showSequence(sequence){
