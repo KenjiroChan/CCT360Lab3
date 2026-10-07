@@ -16,9 +16,9 @@ let sequenceB = {
 };
 
 function showSequence(sequence){
-    document.getElementById("slot1").src = sequence[0];
-    document.getElementById("slot2").src = sequence[1];
-    document.getElementById("slot3").src = sequence[2];
+    document.getElementById("slot1").src = sequence.images[0];
+    document.getElementById("slot2").src = sequence.images[1];
+    document.getElementById("slot3").src = sequence.images[2];
     document.getElementById("caption1").textContent=sequence.captions[0];
     document.getElementById("caption2").textContent=sequence.captions[1];
     document.getElementById("caption3").textContent=sequence.captions[2];
